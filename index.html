@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Flavor Fusion Cafe</title>
+  <meta name="title" content="Flavor Fusion Cafe">
+  <meta name="description" content="This is a Restaurant html template made by Kaveesha Dilshan">
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Flavor Fusion Cafe</p>
+  </div>
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          No.14,Panadura Rd, Horana
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 11.00 pm</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+94 74 777 5531</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:flavorfusioncafe@.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">flavorfusioncafe@.com</span>
+      </a>
+
+    </div>
+  </div>
+
+  <!--#HEADER-->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="F:\web sites\My project\assets\logo.png" width="40" height="30" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="F:\web sites\My project\assets\logo.png" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menu</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#reservation" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            No14, PanaduraRd, <br>
+            Horana
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 11.30pm</p>
+
+          <a href="flavorfusioncafe.com" class="body-4 sidebar-link">flavorfusioncafe@.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Order Now</p>
+
+          <a href="tel:+94747775531" class="body-1 contact-number hover-underline">
+            +9474 777 5531
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Order Now</span>
+
+        <span class="text text-2" aria-hidden="true">Order Now</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!--#HERO-->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="F:\web sites\My project\assets\slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Taste the Difference<br>
+              Where Passion Meets Palate
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="F:\web sites\My project\assets\slider-2.png" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Flavors Inspired by <br>
+              the Seasons
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="F:\web sites\My project\assets\slider-3.png" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Savor the Flavors:  <br>
+              Where Every Bite Tells a Story
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="F:\web sites\My project\assets\features-icon-2.png" width="48" height="48" color="black" alt="booking icon">
+
+          <span class="label-2 text-center span">Book A Table</span>
+        </a>
+
+      </section>
+
+      <!--#SERVICE-->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Flavors For Royalty</p>
+
+          <h2 class="headline-1 section-title">We Offer Top Notch</h2>
+
+          <p class="section-text">
+            Our restaurant promises "We Offer Top Notch" with precision and passion, crafting dishes like steak, seafood, 
+            and desserts with top-notch ingredients and impeccable service. Our commitment to excellence elevates your 
+            culinary journey, ensuring a memorable dining experience.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="F:\web sites\My project\assets\lunch.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Lunch</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="F:\web sites\My project\assets\apatizer.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Appetizers</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="F:\web sites\My project\assets\dinner.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Dinner</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="F:\web sites\My project\assets\shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="F:\web sites\My project\assets\9560632-removebg-preview.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+      <!--#ABOUT-->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Culinary Chronicles</p>
+
+            <h2 class="headline-1 section-title">A Journey Through Time</h2>
+
+            <p class="section-text">
+              Our restaurant's rich history is steeped in tradition and flavor, tracing its roots back to 2017. 
+              What began as a humble establishment has blossomed into a beloved culinary destination, cherished 
+              by locals and visitors alike. Over the years, we've preserved our commitment to excellence, 
+              honoring time-honored recipes passed down through generations. From our founder's original vision 
+              to the innovative twists introduced by our talented chefs, each chapter of our history is marked 
+              by a dedication to serving unforgettable dining experiences. Join us as we continue to write the 
+              next delicious chapter in our storied legacy.
+            </p>
+
+            <div class="contact-label">Book Through Call</div>
+
+            <a href="tel:+9474-555-33447" class="body-1 contact-number hover-underline">+9474-555-3344</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Read More</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <video src="F:\web sites\My project\assets\video-1.mp4" autoplay muted class="video-1"></video>
+
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="F:\web sites\My project\assets\chefmakingfood.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="F:\web sites\My project\assets\badge-2-bg.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+          </figure>
+
+
+        </div>
+      </section>
+
+      <!--#MENU-->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Special Selection</p>
+
+          <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="F:\web sites\My project\assets\menu1.png" width="100" height="100" loading="lazy" alt="Chilli Chicken Pizza"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Chilli Chicken Pizza</a>
+                    </h3>
+
+                    <span class="badge label-1">New</span>
+
+                    <span class="span title-2">Rs.950.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    A pizza topped with spicy chicken, Green Chillies, onions & Mozzarella
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="F:\web sites\My project\assets\menu2.png" width="100" height="100" loading="lazy" alt="Churros ice cream sandwich"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title"> Churros ice cream sandwich</a>
+                    </h3>
+
+                    <span class="span title-2">Rs.700.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    churros ice cream sandwich combines a Spanish-style doughnut coated in cinnamon sugar with ice cream.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="F:\web sites\My project\assets\menu3.png" width="100" height="100" loading="lazy" alt="Cryspi Chicken Kottu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Cryspi Chicken Kottu</a>
+                    </h3>
+
+                    <span class="span title-2">Rs.1100.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Chopped flatbread mixed and mashed together with chicken and vegetables and lots of aromatic spices.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="F:\web sites\My project\assets\menu4.png" width="100" height="100" loading="lazy" alt="Black Forest Cake"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Black Forest Cake</a>
+                    </h3>
+
+                    <span class="badge label-1">New</span>
+
+                    <span class="span title-2">Rs.1350.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    typically made with a light chocolate sponge cake, soaked with cherry syrup and cherry brandy (Kirsch).
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="F:\web sites\My project\assets\menu5.png" width="100" height="100" loading="lazy" alt="Burger"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Burger</a>
+                    </h3>
+
+                    <span class="span title-2">Rs.600.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    chicken patty, grilled onions, fresh tomato, green chilli mayonnaise.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="F:\web sites\My project\assets\menu6.png" width="100" height="100" loading="lazy" alt="Milkshake"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Milkshake</a>
+                    </h3>
+
+                    <span class="span title-2">Rs.800.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Creamy, and so addictive that you’ll be trying to drink every last drop.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="F:\web sites\My project\assets\menu7.png" width="100" height="100" loading="lazy" alt="Chese Pasta"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Chese Pasta</a>
+                    </h3>
+
+                    <span class="span title-2">Rs.900.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Delicious spaghetti with a meeting of the finest tandoori chicken a...
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="F:\web sites\My project\assets\menu8.png" width="100" height="100" loading="lazy" alt="Chocolate Melt Lava Cake"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Chocolate Melt Lava Cake</a>
+                    </h3>
+
+                    <span class="span title-2">Rs.600.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Soft, moist chocolate cake with a burst of thick, hot liquid chocol...
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+          <p class="menu-text text-center">
+            Weekends from <span class="span">8:00 pm</span> to <span class="span">9:00 pm</span>
+          </p>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View All Menu</span>
+
+            <span class="text text-2" aria-hidden="true">View All Menu</span>
+          </a>
+
+          <img src="F:\web sites\My project\assets\shape-4.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+            
+      <!--GALLERY-->
+      <section>
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <p class="headline-1 text-center">Some photos from Our Restaurant</p>
+          </div>
+        </div>
+      <div class="gallery">
+        <div class="row">
+            <div class="column">
+                <img src="F:\web sites\My project\assets\gallery-1.jpg" alt="Image 1">
+            </div>
+            <div class="column">
+                <img src="F:\web sites\My project\assets\gallery-2.jpg" alt="Image 2">
+            </div>
+            <div class="column">
+                <img src="F:\web sites\My project\assets\gallery-3.jpg" alt="Image 3">
+            </div>
+            <div class="column">
+                <img src="F:\web sites\My project\assets\gallery-4.jpg" alt="Image 4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="F:\web sites\My project\assets\gallery-5.jpg" alt="Image 5">
+            </div>
+            <div class="column">
+                <img src="F:\web sites\My project\assets\gallery-6.jpg" alt="Image 6">
+            </div>
+            <div class="column">
+                <img src="F:\web sites\My project\assets\gallery-7.jpg" alt="Image 7">
+            </div>
+            <div class="column">
+                <img src="F:\web sites\My project\assets\gallery-8.jpg" alt="Image 8">
+            </div>
+        </div>
+    </div>
+  </section>
+      <!--#CHEFS-->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <h2 class="headline-1 section-title">Our Strength</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="F:\web sites\My project\assets\chef-1.jpg" width="160" height="90" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Kasun Lakshan</h3>
+
+                
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="F:\web sites\My project\assets\chef-2.jpg" width="160" height="90" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Supuni Samarakon</h3>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="F:\web sites\My project\assets\chef-3.jpg" width="190" height="90" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Asan Sandaru</h3>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="F:\web sites\My project\assets\chef-4.jpg" width="220" height="90" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Samru Dumin</h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+       <!--#RESERVATION-->
+
+      <section class="reservation" aria-label="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form method="post" action="process_reservation.php" class="form-left">
+
+              <h2 class="headline-1 text-center">Online Reservation</h2>
+
+              <p class="form-text text-center">
+                Booking request <a href="tel:+9474-555-3344" class="link">+9474-555-3344</a>
+                or fill out the order form
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="1-person">1 Person</option>
+                    <option value="2-person">2 Person</option>
+                    <option value="3-person">3 Person</option>
+                    <option value="4-person">4 Person</option>
+                    <option value="5-person">5 Person</option>
+                    <option value="6-person">6 Person</option>
+                    <option value="7-person">7 Person</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="08:00am">08 : 00 am</option>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="010:00am">10 : 00 am</option>
+                    <option value="011:00am">11 : 00 am</option>
+                    <option value="012:00am">12 : 00 am</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Book A Table</span>
+
+                <span class="text text-2" aria-hidden="true">Book A Table</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" >
+
+              <h2 class="headline-1 text-center">Contact Us</h2>
+
+              <p class="contact-label">Booking Request</p>
+
+              <a href="tel:+9474-555-3344" class="body-1 contact-number hover-underline">+9474-555-3344</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+
+              <address class="body-4">
+                No.14,Panadura Rd,<br>
+                Horana
+              </address>
+
+              <p class="contact-label">Lunch Time</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                11.00 am - 2.30pm
+              </p>
+
+              <p class="contact-label">Dinner Time</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                05.00 pm - 10.00pm
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+  <!--#FOOTER-->
+
+  <footer class="footer section has-bg-image text-center">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <address class="body-4">
+            No.14,Panadura Rd,Horana
+          </address>
+
+          <a href="mailto:flavorfusioncafe@.com" class="body-4 contact-link">flavorfusioncafe@.com</a>
+
+          <a href="tel:+9474-555-3344" class="body-4 contact-link">Booking Request : +9474-555-3344</a>
+
+          <p class="body-4">
+            Open : 8.00 am to 11.00 pm
+          </p>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">
+            Subscribe us & Get <span class="span">30% Off.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Menu</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Lunch</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Appetizers</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Dinner</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 Flavor Fusion Cafe. All Rights Reserved | Developed by <a href="https://github.com/Kaveesha23dil"
+            target="_blank" class="link">Kaveesha Dilshan</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
